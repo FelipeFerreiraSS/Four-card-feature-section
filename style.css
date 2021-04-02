@@ -18,6 +18,7 @@
 body {
   font-family: "Poppins";
   font-size: 15px;
+  background-color: var(--VeryLightGray);
 
   min-height: 100vh;
   min-width: 100vh;
@@ -32,4 +33,37 @@ body {
   width: 1100px;
   height: 550px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTop > h1 {
+  width: 245px;
+  height: 72px;
+}
+
+.sectionTop > p {
+  width: 448px;
+  height: 77px;
+}
+
+.sectionBody {
+  display: flex;
+  width: 1080px;
+  height: 400px;
+}
+
+.left > div {
+  color: red;
+  height: 200px;
+  width: 300px;
 }
