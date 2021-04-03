@@ -58,12 +58,37 @@ body {
 
 .sectionBody {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 1080px;
   height: 400px;
 }
 
 .left > div {
-  color: red;
+  background-color: brown;
   height: 200px;
   width: 300px;
+
+  border-radius: 5px;
+  box-shadow: 10px 10px 30px 10px rgb(0 0 0 / 59%);
+}
+
+.center > div {
+  background-color: brown;
+  height: 200px;
+  width: 300px;
+
+  margin-top: 15px;
+
+  border-radius: 5px;
+  box-shadow: 10px 10px 30px 10px rgb(0 0 0 / 59%);
+}
+
+.right > div {
+  background-color: brown;
+  height: 200px;
+  width: 300px;
+  border-radius: 5px;
+
+  box-shadow: 10px 10px 30px 10px rgb(0 0 0 / 59%);
 }
