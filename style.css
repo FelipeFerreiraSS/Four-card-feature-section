@@ -39,6 +39,14 @@ body {
   align-items: center;
 }
 
+#title1 {
+  font-weight: 400;
+}
+
+#title2 {
+  font-weight: 600;
+}
+
 .sectionTop {
   display: flex;
   flex-direction: column;
@@ -47,8 +55,8 @@ body {
 }
 
 .sectionTop > h1 {
-  width: 245px;
-  height: 72px;
+  width: 391px;
+  font-size: 30px;
 }
 
 .sectionTop > p {
@@ -65,30 +73,72 @@ body {
 }
 
 .left > div {
-  background-color: brown;
+  background-color: var(--VeryLightGray);
   height: 200px;
   width: 300px;
-
+  padding: 20px;
   border-radius: 5px;
-  box-shadow: 10px 10px 30px 10px rgb(0 0 0 / 59%);
+  box-shadow: 0px 9px 16px 4px rgb(0 0 0 / 39%);
+}
+
+.left > div > h2 {
+  font-weight: 600;
+}
+
+.left > div > p {
+  font-weight: 400;
+  color: var(--GrayishBlue);
+}
+
+.left > div > img {
+  margin-top: 20px;
+  margin-left: 200px;
 }
 
 .center > div {
-  background-color: brown;
+  background-color: var(--VeryLightGray);
   height: 200px;
   width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 9px 16px 4px rgb(0 0 0 / 39%);
 
   margin-top: 15px;
+}
 
-  border-radius: 5px;
-  box-shadow: 10px 10px 30px 10px rgb(0 0 0 / 59%);
+.center > div > h2 {
+  font-weight: 600;
+}
+
+.center > div > p {
+  font-weight: 400;
+  color: var(--GrayishBlue);
+}
+
+.center > div > img {
+  margin-top: 20px;
+  margin-left: 200px;
 }
 
 .right > div {
-  background-color: brown;
+  background-color: var(--VeryLightGray);
   height: 200px;
   width: 300px;
   border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 9px 16px 4px rgb(0 0 0 / 39%);
+}
 
-  box-shadow: 10px 10px 30px 10px rgb(0 0 0 / 59%);
+.right > div > h2 {
+  font-weight: 600;
+}
+
+.right > div > p {
+  font-weight: 400;
+  color: var(--GrayishBlue);
+}
+
+.right > div > img {
+  margin-top: 20px;
+  margin-left: 200px;
 }
